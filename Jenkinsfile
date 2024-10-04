@@ -10,7 +10,7 @@ pipeline{
 	    }
           }
 	   stage("SonarQube analysis"){
-	      environtment{
+	      environment{
 		scannerHome = tool 'jinendra-sonar-scanner'
 	    }
 	      steps{
